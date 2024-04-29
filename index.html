@@ -21,10 +21,7 @@
       property="og:description"
       content="OpenArmor leverages eBPF logging, artificial intelligence, and automation to revolutionize cybersecurity with proactive threat detection, rapid response, and deep observability."
     />
-    <meta
-      property="og:image"
-      content="/assets/154563680-removebg-preview.png"
-    />
+    <meta property="og:image" content="/assets/openarmor.svg" />
     <meta property="og:url" content="https://theopenarmor.org" />
     <meta
       name="keywords"
@@ -42,10 +39,7 @@
       name="twitter:description"
       content="OpenArmor lets language models runs to make your computer secure."
     />
-    <meta
-      name="twitter:image"
-      content="/assets/154563680-removebg-preview.png"
-    />
+    <meta name="twitter:image" content="/assets/openarmor.svg" />
 
     <link
       rel="apple-touch-icon"
@@ -70,7 +64,7 @@
 
   <body>
     <div
-      class="relative cursor-default bg-white invert selection:bg-black selection:text-white"
+      class="relative cursor-default bg-black invert selection:bg-white selection:text-white"
     >
       <video
         class="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-full min-w-full -translate-x-1/2 -translate-y-1/2 transform object-cover opacity-[40%] invert"
@@ -97,12 +91,16 @@
           ></div>
         </div>
         <div class="flex flex-col text-lg md:flex-row md:space-x-12">
-          <a href="https://docs.theopenarmor.org" class="hover:underline"
-            >Docs</a
-          >
-          <a href="https://theopenarmor.org/team" class="hover:underline"
-            >Team</a
-          >
+          <span>
+            <a href="https://docs.theopenarmor.org" class="hover:underline"
+              >Docs</a
+            >
+          </span>
+          <span>
+            <a href="https://theopenarmor.org/team" class="hover:underline"
+              >Team</a
+            >
+          </span>
         </div>
       </nav>
       <section class="z-10 h-screen pb-12 sm:pb-0">
@@ -122,35 +120,37 @@
             <div class="mb-4 mr-4 flex items-center space-x-6 md:mb-0">
               <a
                 href="https://github.com/openarmor/openarmor"
-                class="h-min border border-black px-3 py-2 hover:bg-black hover:text-white"
+                class="h-min border border-white px-3 py-2 hover:bg-white hover:text-white"
                 >★ 7 Github</a
               >
-              <a
-                href="https://github.com/openarmor/openarmor"
-                class="flex h-min items-center space-x-1 border-b border-black hover:border-transparent"
-              >
-                <span>Watch Video</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1"
-                  stroke="currentColor"
-                  class="h-5 w-5"
+              <span>
+                <a
+                  href="https://github.com/openarmor/openarmor"
+                  class="flex h-min items-center space-x-1 border-b border-white hover:border-transparent"
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                  ></path>
-                </svg>
-              </a>
+                  Watch Video
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1"
+                    stroke="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                    ></path>
+                  </svg>
+                </a>
+              </span>
             </div>
 
             <!-- Right button will add this later-->
             <a
               href="https://hub.docker.com/u/openarmor"
-              class="h-min border border-black px-3 py-2 hover:bg-black hover:text-white"
+              class="h-min border border-white px-3 py-2 hover:bg-white hover:text-white"
             >
               <img
                 src="/assets/docker-logo-blue.svg"
